@@ -1,0 +1,24 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.listItem {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrowImage {
+  width: 25px;
+  height: 25px;
+  margin-right: 45px;
+}
+.para {
+  font-size: 15px;
+  color: #475569;
+}
+@media screen and (max-width: 762px) {
+  .listItem {
+    width: 90vw;
+  }
+}
